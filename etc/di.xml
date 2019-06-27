@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Quote\Model\BillingAddressManagement">
+        <plugin disabled="false" name="Naqel_ExtraCheckoutAddressFields_Plugin_Magento_Quote_Model_BillingAddressManagement" sortOrder="10" type="Naqel\ExtraCheckoutAddressFields\Plugin\Magento\Quote\Model\BillingAddressManagement"/>
+    </type>
+    <type name="Magento\Quote\Model\ShippingAddressManagement">
+        <plugin disabled="false" name="Naqel_ExtraCheckoutAddressFields_Plugin_Magento_Quote_Model_ShippingAddressManagement" sortOrder="10" type="Naqel\ExtraCheckoutAddressFields\Plugin\Magento\Quote\Model\ShippingAddressManagement"/>
+    </type>
+    <type name="Magento\Checkout\Model\PaymentInformationManagement">
+        <plugin disabled="false" name="Naqel_ExtraCheckoutAddressFields_Plugin_Magento_Checkout_Model_PaymentInformationManagement" sortOrder="10" type="Naqel\ExtraCheckoutAddressFields\Plugin\Magento\Checkout\Model\PaymentInformationManagement"/>
+    </type>
+</config>
